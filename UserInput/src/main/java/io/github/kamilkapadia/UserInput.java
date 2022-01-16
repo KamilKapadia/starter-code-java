@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class UserInput {
 	public static void main(String[] args) {
-		
+		System.out.println();
 		System.out.println("**************************************************************");
 		System.out.println("********** Working With User Input Programmatically **********");
 		System.out.println("**************************************************************");
@@ -12,7 +12,6 @@ public class UserInput {
 		
 		System.out.println("===== Input from Command Line Args =====");
 		if (args.length > 0) {
-			
 			for (String arg : args) {
 				System.out.println(arg);
 			}
