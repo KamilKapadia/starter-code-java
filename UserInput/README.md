@@ -8,5 +8,3 @@
 
 ## Run with command line args
 `java -jar ./target/user-input-1.0-SNAPSHOT.jar arg1 arg2`
-
-**NOTE:** Project was built with Java 11
