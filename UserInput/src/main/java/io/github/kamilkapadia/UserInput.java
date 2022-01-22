@@ -29,6 +29,5 @@ public class UserInput {
 		}
 		
 		System.out.println();
-		
 	}
 }
