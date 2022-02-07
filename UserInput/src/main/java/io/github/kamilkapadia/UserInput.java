@@ -25,7 +25,7 @@ public class UserInput {
 		try (Scanner scanner = new Scanner(System.in)) {
 			System.out.print("Please enter your name: ");
 			String name = scanner.nextLine();
-			System.out.println("Hello " + name);
+			System.out.printf("Hello %s%n", name);
 		}
 		
 		System.out.println();

@@ -25,9 +25,9 @@ public class ConfigFiles {
 			Properties props = new Properties();
 			props.load(input);
 			
-			System.out.println("userame  =  " + props.getProperty("username"));
-			System.out.println("url      =  " + props.getProperty("url"));
-			System.out.println("port     =  " + props.getProperty("port"));
+			System.out.printf("userame  =  %s%n", props.getProperty("username"));
+			System.out.printf("url      =  %s%n", props.getProperty("url"));
+			System.out.printf("port     =  %s%n", props.getProperty("port"));
 			
 		} catch (IOException ex) {
 			System.err.println("ERROR with reading properties file: " + ex.getMessage());
@@ -41,9 +41,9 @@ public class ConfigFiles {
 			Properties props = new Properties();
 			props.loadFromXML(input);
 						
-			System.out.println("userame  =  " + props.getProperty("username"));
-			System.out.println("url      =  " + props.getProperty("url"));
-			System.out.println("port     =  " + props.getProperty("port"));
+			System.out.printf("userame  =  %s%n", props.getProperty("username"));
+			System.out.printf("url      =  %s%n", props.getProperty("url"));
+			System.out.printf("port     =  %s%n", props.getProperty("port"));
 			
 		} catch (IOException ex) {
 			System.err.println("ERROR with reading properties file: " + ex.getMessage());
